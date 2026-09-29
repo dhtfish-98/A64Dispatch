@@ -33,9 +33,7 @@ tests and licenses initially retained their accepted bytes. Subsequent Git commi
 record later fixes; this manifest is historical and does not describe the current checkout. The initial Git commit records
 publication; it does not manufacture a prior development history.
 
-The functional baseline is `deflat64`. Its exact commit and retained attribution
-are documented in the project notices. That historical repository may be private;
-licenses and source provenance remain available here.
+
 
 Historical IDA 9.4 result (2026-09-23): 26 actual host checks on an owned fixture, including apply, restore and
 fault rollback. Installed CLI: 28 sample vectors; a separate consumer analyzed

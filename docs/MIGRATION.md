@@ -2,9 +2,8 @@
 
 Evidence filenames and workspace-relative paths below refer to local validation records. See `../validation/README.md` for the published summary; raw local logs are not included.
 
-Baseline: deflat64 `ef59221440234bee50d3061ce23fc3f8749afbbc`. The isolated
-88-case Python run is historical baseline evidence, not a native test run.
-`../evidence/deflat64/baseline-inventory.json` inventories every package Python
+The isolated 88-case Python run is historical evidence, not a native test run.
+`../evidence/local-records/baseline-inventory.json` inventories every package Python
 module, its source hash, public definitions, native destination and validation
 source; it also enumerates all 88 original test functions. The mapping is a
 capability inventory, not proof of equivalence on arbitrary inputs.

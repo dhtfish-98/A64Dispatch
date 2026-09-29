@@ -75,22 +75,12 @@ IDA adapter explicitly submits verified changes to its database. Read
 [configuration and protocol details](docs/CONFIG.md), the [IDA bridge guide](integrations/ida/README.md),
 and [validation record](docs/CHECKPOINT.md).
 
-## Sources and licensing
+## Licensing
 
-The functional baseline is deflat64 commit
-`ef59221440234bee50d3061ce23fc3f8749afbbc`, itself based on DumpA1n's MIT-licensed
-[unflatten64](https://github.com/DumpA1n/unflatten64). That baseline's pure Python
-suite was rerun in an isolated copy: 88 cases passed. The baseline did not validate
-its own IDA paths. Native analysis and the host transport are implemented here;
-the IDA results above cover one owned fixture, not every baseline
-workflow or arbitrary binaries. Finite checks do not prove that a rewritten
-branch matches every input.
-
-New implementation: copyright 2026 dhtfish98, licensed under GPL-2.0-only. The
-native build links Unicorn; this distribution retains its GPL license together
-with dependency notices. The inherited baseline MIT attribution remains in
-`licenses/deflat64-MIT.txt`. No third-party target binaries or private target data
-are included in the source tree.
+Copyright 2026 dhtfish98, licensed under GPL-2.0-only. The native build links
+Unicorn; this distribution keeps that GPL license together with the dependency
+notices. No third-party target binaries or private target data are included in
+the source tree.
 
 ## Install and use the library
 

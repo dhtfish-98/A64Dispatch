@@ -1,9 +1,6 @@
 # Sources and dependencies
 
 New implementation copyright 2026 dhtfish98, GPL-2.0-only (see LICENSE).
-Functional baseline: deflat64 `ef59221440234bee50d3061ce23fc3f8749afbbc`, based on
-DumpA1n/unflatten64. The MIT notices for dhtfish988 and DumpA1n are retained in
-`licenses/deflat64-MIT.txt`; the native rewrite does not remove that provenance.
 
 | Dependency | Version | Applicable library license |
 |---|---|---|

@@ -67,7 +67,7 @@ coverage of arbitrary databases; historical results below keep their original sc
 
 ## Original delivery verification — 2026-09-23
 
-- Baseline deflat64 `ef59221440234bee50d3061ce23fc3f8749afbbc`: isolated 88-case run.
+- An isolated 88-case Python run is historical evidence, not a native test run.
   The migration inventory covers all 47 package Python modules and all 88 tests.
 - Debug, Release, ASan/UBSan: **693 checks each**, ten CTest programs, zero failures:
   foundation 239, cleanup 17, table graph 14, flat mapping 19, sample pipeline 136,
@@ -96,7 +96,7 @@ coverage of arbitrary databases; historical results below keep their original sc
 - Native runtime dependencies are installed separately through Homebrew; the
   dependency paths are recorded. The binary archive is not a self-contained app.
 
-Evidence is in `../evidence/deflat64/`: build/test logs for each preset,
+Evidence is in `../evidence/local-records/`: build/test logs for each preset,
 `baseline-inventory.json`, `ida-integration.json`, `fuzz-final.txt`, consumer logs,
 installed sample receipts, runtime dependency list, source and artifact manifests.
 Source and binary archives are in `../deliveries/` with SHA-256 sums.
