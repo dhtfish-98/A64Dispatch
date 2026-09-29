@@ -53,7 +53,7 @@ Debug and ASan/UBSan. The earlier 707-check review closed supplied-candidate
 verification and omitted branch-target validation gaps; see the
 [review record](docs/CHECKPOINT.md). An independent installed C++ consumer has
 executed the library and exact graph restoration. Linux/Windows execution is OPEN.
-The [hosted Release run for commit `0ea2ca9`](https://github.com/dhtfish988/A64Dispatch/actions/runs/36086125433)
+The [hosted Release run for commit `0ea2ca9`](https://github.com/dhtfish-98/A64Dispatch/actions/runs/36086125433)
 also passed all 707 checks and the installed consumer; see its
 [scope and artifact digest summary](validation/hosted-release-2026-09-25.json).
 

@@ -1,9 +1,9 @@
 {
   "record_kind": "hosted Release verification of the exact identified commit",
   "run_id": 36086125433,
-  "run_url": "https://github.com/dhtfish988/A64Dispatch/actions/runs/36086125433",
+  "run_url": "https://github.com/dhtfish-98/A64Dispatch/actions/runs/36086125433",
   "head_commit": "0ea2ca926c691037a3a7c377deed4f2bbb213976",
-  "head_url": "https://github.com/dhtfish988/A64Dispatch/commit/0ea2ca926c691037a3a7c377deed4f2bbb213976",
+  "head_url": "https://github.com/dhtfish-98/A64Dispatch/commit/0ea2ca926c691037a3a7c377deed4f2bbb213976",
   "ctest": {
     "programs": 10,
     "checks": 707,

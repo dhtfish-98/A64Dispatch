@@ -65,12 +65,12 @@ user sessions were not accessed. Earlier host records retain their original scop
   [subsequent Debug IDA result](ida-re-audit-2026-09-25.json).
 - [Machine-readable review result](current-review.json) and [sanitized test transcripts](review-2026-09-25/).
 - [CMake 3.24 preset compatibility result](current-review-build.json).
-- [Hosted Release run 36086125433](https://github.com/dhtfish988/A64Dispatch/actions/runs/36086125433)
+- [Hosted Release run 36086125433](https://github.com/dhtfish-98/A64Dispatch/actions/runs/36086125433)
   passed 707 checks in ten programs and the installed consumer at commit
-  [`0ea2ca926c691037a3a7c377deed4f2bbb213976`](https://github.com/dhtfish988/A64Dispatch/commit/0ea2ca926c691037a3a7c377deed4f2bbb213976).
+  [`0ea2ca926c691037a3a7c377deed4f2bbb213976`](https://github.com/dhtfish-98/A64Dispatch/commit/0ea2ca926c691037a3a7c377deed4f2bbb213976).
   The [artifact summary](hosted-release-2026-09-25.json) records counts and log hashes;
   this job did not execute IDA, fuzzing, Debug or sanitizer tests.
-- [GitHub macOS verification](https://github.com/dhtfish988/A64Dispatch/actions/workflows/verify.yml) builds Release, runs the tests, installs the package and exercises an independent consumer. Read the result for the exact commit; a workflow file alone is not a successful run.
+- [GitHub macOS verification](https://github.com/dhtfish-98/A64Dispatch/actions/workflows/verify.yml) builds Release, runs the tests, installs the package and exercises an independent consumer. Read the result for the exact commit; a workflow file alone is not a successful run.
 
 The original 1.0.0 archives remain historical artifacts. Use the current Git commit
 for these fixes. Earlier fuzz runs were not repeated. The native

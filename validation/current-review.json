@@ -107,6 +107,6 @@
       "sha256": "45ec3a5f50410b493ccc187c7dd29693de56f6ac441358e7b6ab6cd913d1e2a1"
     }
   },
-  "hosted_ci_url": "https://github.com/dhtfish988/A64Dispatch/actions/workflows/verify.yml",
+  "hosted_ci_url": "https://github.com/dhtfish-98/A64Dispatch/actions/workflows/verify.yml",
   "hosted_ci_note": "Check the Actions result for the exact Git commit; local results do not imply a hosted run passed."
 }
