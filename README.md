@@ -11,6 +11,15 @@ The optional IDAPython bridge exports an IDA database, asks the native program t
 analyze it, and submits accepted byte edits or candidate graph references on IDA's main thread.
 This is a new workflow and configuration schema, not a drop-in Python API replacement.
 
+The current local Release result is **742 checks**. Debug and ASan/UBSan each
+passed **472 checks in the seven groups touched by the latest fixes**, not every
+group. After those fixes, IDA 9.4 passed **26 checks** on one owned fixture in a
+fresh disposable database, using the Debug binary. That host run is not a Release
+test and does not cover other databases. The
+[hosted Release run at `0ea2ca9`](https://github.com/dhtfish-98/A64Dispatch/actions/runs/36086125433)
+passed 707 checks and the installed consumer; it predates these fixes and did not
+run IDA. Finite checks do not prove that a rewritten branch matches every input.
+
 The native library currently provides mapped ELF64/snapshot/flat-file inputs, instruction
 semantics, bounded constant and binary-choice tracking, two-level and single-level
 table dispatch analysis, experimental comparison-tree recovery, static and observed
@@ -38,24 +47,15 @@ ctest --preset debug --verbose
 ```
 
 The test build compiles the neutral AArch64 assembly in `samples/dispatch_cases.S`
-using a cross-target LLVM compiler and ELF linker. The historical
-[IDA 9.4 check record](validation/ida-2026-09-23.json) contains 26 successful checks
-on one fresh fixture database on 2026-09-23, including byte/graph application,
-restoration and injected host failures. A separate
-[earlier 2026-09-25 IDA run](validation/ida-2026-09-25.json) passed the same 26 checks
-with the native source at `0ea2ca9`. After the latest execution-memory and CLI
-preflight fixes, a [new Debug IDA run](validation/ida-re-audit-2026-09-25.json)
-again passed all 26 checks in a new disposable database for that fixture.
-Neither run tested the Release binary in IDA or arbitrary existing databases.
-The [latest re-audit](validation/re-audit-2026-09-25/result.json) passed the full
-**742-check Release suite** and **472 checks in seven affected groups** in each of
-Debug and ASan/UBSan. The earlier 707-check review closed supplied-candidate
-verification and omitted branch-target validation gaps; see the
-[review record](docs/CHECKPOINT.md). An independent installed C++ consumer has
-executed the library and exact graph restoration. Linux/Windows execution is OPEN.
-The [hosted Release run for commit `0ea2ca9`](https://github.com/dhtfish-98/A64Dispatch/actions/runs/36086125433)
-also passed all 707 checks and the installed consumer; see its
-[scope and artifact digest summary](validation/hosted-release-2026-09-25.json).
+using a cross-target LLVM compiler and ELF linker. Counts and scope for the
+current 742-check Release run, the 26-check Debug IDA session and the earlier
+707-check hosted run are stated above. Their records are the
+[re-audit](validation/re-audit-2026-09-25/result.json), the
+[latest IDA run](validation/ida-re-audit-2026-09-25.json) and the
+[hosted summary](validation/hosted-release-2026-09-25.json). Earlier IDA sessions
+remain in [validation/README.md](validation/README.md). Linux/Windows execution
+is OPEN. An independent installed C++ consumer has executed the library and exact
+graph restoration.
 
 Current development commands:
 
