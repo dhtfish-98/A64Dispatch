@@ -1,9 +1,11 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # A64Dispatch
 
 A C++20 library and CLI for AArch64 dispatch analysis, control-flow reports and
 same-size branch rewriting gated by known-vector and coverage checks.
 Version 1.0.0 is validated on macOS arm64.
-The [validation summary](validation/README.md) records the local acceptance
+The [validation summary](<validation/README.md>) records the local acceptance
 scope and explains availability of the detailed evidence.
 
 The CLI produces reports and candidate snapshots without overwriting input files.
@@ -28,7 +30,7 @@ transaction. The CLI now includes source-bound staged artifacts, full workflow, 
 restore/regression, command oracles, bounded libc call models and cleanup proposals.
 Comparison-tree conditional back edges, bounded state expansion, table graph
 candidates, external traces, independent batch jobs and regression expectations
-are implemented and exercised. See the [migration inventory](docs/MIGRATION.md).
+are implemented and exercised. See the [migration inventory](<docs/MIGRATION.md>).
 
 Candidate verification executes the original and modified image separately, checks
 known outputs and requires coverage of changed instructions and the proposed
@@ -50,10 +52,10 @@ The test build compiles the neutral AArch64 assembly in `samples/dispatch_cases.
 using a cross-target LLVM compiler and ELF linker. Counts and scope for the
 current 742-check Release run, the 26-check Debug IDA session and the earlier
 707-check hosted run are stated above. Their records are the
-[re-audit](validation/re-audit-2026-09-25/result.json), the
-[latest IDA run](validation/ida-re-audit-2026-09-25.json) and the
-[hosted summary](validation/hosted-release-2026-09-25.json). Earlier IDA sessions
-remain in [validation/README.md](validation/README.md). Linux/Windows execution
+[re-audit](<validation/re-audit-2026-09-25/result.json>), the
+[latest IDA run](<validation/ida-re-audit-2026-09-25.json>) and the
+[hosted summary](<validation/hosted-release-2026-09-25.json>). Earlier IDA sessions
+remain in [validation/README.md](<validation/README.md>). Linux/Windows execution
 is OPEN. An independent installed C++ consumer has executed the library and exact
 graph restoration.
 
@@ -72,8 +74,8 @@ build/debug/a64-dispatch restore --config samples/workflow.json --from build/app
 `survey` and `classify` select earlier stages. `--from` checks a prior stage against
 fresh source/configuration analysis. The CLI returns separate snapshots; the thin
 IDA adapter explicitly submits verified changes to its database. Read
-[configuration and protocol details](docs/CONFIG.md), the [IDA bridge guide](integrations/ida/README.md),
-and [validation record](docs/CHECKPOINT.md).
+[configuration and protocol details](<docs/CONFIG.md>), the [IDA bridge guide](<integrations/ida/README.md>),
+and [validation record](<docs/CHECKPOINT.md>).
 
 ## Licensing
 
@@ -100,4 +102,4 @@ and licenses. Homebrew runtime dependencies are installed separately; the archiv
 is not a self-contained macOS application. See dependencies.lock.json and the
 runtime dependency record in the delivery evidence.
 
-Local validation and publication scope: [validation/README.md](validation/README.md).
+Local validation and publication scope: [validation/README.md](<validation/README.md>).

@@ -113,10 +113,10 @@ install(TARGETS a64dispatch a64-dispatch a64-oracle-worker
  LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
-install(DIRECTORY docs integrations licenses examples samples validation
+install(DIRECTORY 项目文档/docs integrations 项目文档/licenses examples samples 项目文档/validation
  DESTINATION ${CMAKE_INSTALL_DATADIR}/A64Dispatch
  PATTERN "__pycache__" EXCLUDE)
-install(FILES README.md LICENSE THIRD_PARTY_NOTICES.md dependencies.lock.json
+install(FILES 项目文档/README.md 项目文档/LICENSE 项目文档/THIRD_PARTY_NOTICES.md dependencies.lock.json
  DESTINATION ${CMAKE_INSTALL_DATADIR}/A64Dispatch)
 configure_package_config_file(cmake/A64DispatchConfig.cmake.in
  ${CMAKE_CURRENT_BINARY_DIR}/A64DispatchConfig.cmake

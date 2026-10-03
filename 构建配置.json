@@ -1,0 +1,197 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "A64Dispatch",
+  "author": "dhtfish98",
+  "kind": "cmake",
+  "base_public_commit": "0038a1b98e195ff9f7a7100a88762b4f67fb59c3",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "6f04ae8364d0079a192b14635f4b1da294ce18724c034c39a6a41d1b09df6100"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "139a786a5fc7fff9f635796d8a0646c7cb6eaeb9b9552735b7e2a92f1e88635b"
+    },
+    {
+      "original": "THIRD_PARTY_NOTICES.md",
+      "stored": "项目文档/THIRD_PARTY_NOTICES.md",
+      "sha256": "831d69271c67f1904a67851aeca5230e97cd0e3251ad5ca15988405309a0062f"
+    },
+    {
+      "original": "docs/CHECKPOINT.md",
+      "stored": "项目文档/docs/CHECKPOINT.md",
+      "sha256": "4fd151b22ffa1a95d90e22f0ee11e9b63445b37640ae1b115d128912f07cadd0"
+    },
+    {
+      "original": "docs/CONFIG.md",
+      "stored": "项目文档/docs/CONFIG.md",
+      "sha256": "71c1cb8f57e4260fb158323f609febe9477d03ff4bd8703f2e98b7293a7ddb26"
+    },
+    {
+      "original": "docs/IMPLEMENTATION.md",
+      "stored": "项目文档/docs/IMPLEMENTATION.md",
+      "sha256": "949b86d8cecd2bbec892f8b8674d8fc045a002272c04179b10eeb51739cee05e"
+    },
+    {
+      "original": "docs/MIGRATION.md",
+      "stored": "项目文档/docs/MIGRATION.md",
+      "sha256": "2d54ad68eb78321a0fe5a2403a25ab66e611c71970248a42206c619c2602334a"
+    },
+    {
+      "original": "integrations/ida/README.md",
+      "stored": "项目文档/integrations/ida/README.md",
+      "sha256": "042869410baee9a30af9b33d496164d4076bd5f62a90bc892b00ad4c1debd7be"
+    },
+    {
+      "original": "licenses/capstone-BSD.txt",
+      "stored": "项目文档/licenses/capstone-BSD.txt",
+      "sha256": "65e9ed46a59976eda8f5bd1ea79a680dea38dd299c760bc9a8d87a764ef5029b"
+    },
+    {
+      "original": "licenses/deflat64-MIT.txt",
+      "stored": "项目文档/licenses/deflat64-MIT.txt",
+      "sha256": "6bf5681d0ef16251e7d95000265bfd2bf070b22d954825bccb12dc14d2152e71"
+    },
+    {
+      "original": "licenses/libgcrypt-COPYING.LIB.txt",
+      "stored": "项目文档/licenses/libgcrypt-COPYING.LIB.txt",
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "original": "licenses/libgcrypt-COPYING.txt",
+      "stored": "项目文档/licenses/libgcrypt-COPYING.txt",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "original": "licenses/libgpg-error-COPYING.LIB.txt",
+      "stored": "项目文档/licenses/libgpg-error-COPYING.LIB.txt",
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+    },
+    {
+      "original": "licenses/libgpg-error-COPYING.txt",
+      "stored": "项目文档/licenses/libgpg-error-COPYING.txt",
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "original": "licenses/nlohmann-json-MIT.txt",
+      "stored": "项目文档/licenses/nlohmann-json-MIT.txt",
+      "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+    },
+    {
+      "original": "licenses/unicorn-GPL-2.0.txt",
+      "stored": "项目文档/licenses/unicorn-GPL-2.0.txt",
+      "sha256": "6f04ae8364d0079a192b14635f4b1da294ce18724c034c39a6a41d1b09df6100"
+    },
+    {
+      "original": "licenses/unicorn-LGPL-2.1.txt",
+      "stored": "项目文档/licenses/unicorn-LGPL-2.1.txt",
+      "sha256": "b7993225104d90ddd8024fd838faf300bea5e83d91203eab98e29512acebd69c"
+    },
+    {
+      "original": "licenses/yaml-cpp-MIT.txt",
+      "stored": "项目文档/licenses/yaml-cpp-MIT.txt",
+      "sha256": "aa6fcc27be034e41e21dd832f9175bfe694a48491d9e14ff0fa278e19ad14f1b"
+    },
+    {
+      "original": "validation/README.md",
+      "stored": "项目文档/validation/README.md",
+      "sha256": "13bdeaf1eefe7d010e171f36293fcad362569a926d695b03205af89e2f57d973"
+    },
+    {
+      "original": "validation/current-review-build.json",
+      "stored": "项目文档/validation/current-review-build.json",
+      "sha256": "9eff8ffcb31c04e704afaa7c7af2c1be536c1e33e6d3ba21c559f37260265d66"
+    },
+    {
+      "original": "validation/current-review.json",
+      "stored": "项目文档/validation/current-review.json",
+      "sha256": "bbb65afbd2d50c48cf7e36ad5aab95d4ae4d3ad5000c82f515e606efeeed74b1"
+    },
+    {
+      "original": "validation/hosted-release-2026-09-25.json",
+      "stored": "项目文档/validation/hosted-release-2026-09-25.json",
+      "sha256": "8a131f2d4c0b7b0e80d246de111a2567324da04200087ab86f8083a0b914b099"
+    },
+    {
+      "original": "validation/ida-2026-09-23.json",
+      "stored": "项目文档/validation/ida-2026-09-23.json",
+      "sha256": "3f8c34dae7fb1e8ac3635c97c03220090be7dbda4b457cf68256bcb30182bab3"
+    },
+    {
+      "original": "validation/ida-2026-09-25.json",
+      "stored": "项目文档/validation/ida-2026-09-25.json",
+      "sha256": "6b5bfd1b9482c30aae8d20611d550e82b46d9735874e29203fbf5909ae021a6d"
+    },
+    {
+      "original": "validation/ida-re-audit-2026-09-25.json",
+      "stored": "项目文档/validation/ida-re-audit-2026-09-25.json",
+      "sha256": "ba4e07988cbdba037aa79c10cd96bcd00ef9ed1ccc232c5bc5d08466f5274669"
+    },
+    {
+      "original": "validation/local-source-manifest.json",
+      "stored": "项目文档/validation/local-source-manifest.json",
+      "sha256": "eb5b5cca48ba01cb4be70cda60dcb22067df2d68927c61ba456d732aa9bb6346"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/call-regression-before.stderr",
+      "stored": "项目文档/validation/re-audit-2026-09-25/call-regression-before.stderr",
+      "sha256": "c5f95a6ccfed173436024c7ac64ed6600856d22766cfb3a8f1c1cd2f1ad7d2e3"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/call-regression-before.stdout",
+      "stored": "项目文档/validation/re-audit-2026-09-25/call-regression-before.stdout",
+      "sha256": "3feb6eaffbfff70fefbf36c6ac06926f27886b9291df61c16a938703c3492f3b"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/debug-ctest.txt",
+      "stored": "项目文档/validation/re-audit-2026-09-25/debug-ctest.txt",
+      "sha256": "aefe52dc9aee1e76c6e82392b195752a5330ac9df2d9a87587a045130086a72d"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/release-ctest.txt",
+      "stored": "项目文档/validation/re-audit-2026-09-25/release-ctest.txt",
+      "sha256": "b10c7e5a537731d97642ff0c4a940661a393543b969c10c0ddbe98e8ad8abb34"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/result.json",
+      "stored": "项目文档/validation/re-audit-2026-09-25/result.json",
+      "sha256": "5f890ffb56cd584e2ddcf668fee082b6d9a8f20768db62d48df2d104d76ae6b5"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/sanitize-ctest.txt",
+      "stored": "项目文档/validation/re-audit-2026-09-25/sanitize-ctest.txt",
+      "sha256": "c2e8af6def4abfa960a988fb32d5fcb5f2dfec65e0f1267f9a47d763b6a5a707"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/workflow-regression-before.stderr",
+      "stored": "项目文档/validation/re-audit-2026-09-25/workflow-regression-before.stderr",
+      "sha256": "ada67b322dc3b6561cb7e76a7059f187b18a8b93857613a80cb3a48d72b50aea"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/workflow-regression-before.stdout",
+      "stored": "项目文档/validation/re-audit-2026-09-25/workflow-regression-before.stdout",
+      "sha256": "e2ad11ed1c926dcaf049a6e82391b45873b1e1c64005749b5efcda601014b66f"
+    },
+    {
+      "original": "validation/review-2026-09-25/tests-debug.txt",
+      "stored": "项目文档/validation/review-2026-09-25/tests-debug.txt",
+      "sha256": "fed6d252e6f07ad4666bbc17b70a7b93a4dcc705eccd799635416def1f7a91c2"
+    },
+    {
+      "original": "validation/review-2026-09-25/tests-release.txt",
+      "stored": "项目文档/validation/review-2026-09-25/tests-release.txt",
+      "sha256": "ac09035a9d7a89ad5a21c3424cedd1887093c7ee04e44159a424f2da50d042f9"
+    },
+    {
+      "original": "validation/review-2026-09-25/tests-sanitize.txt",
+      "stored": "项目文档/validation/review-2026-09-25/tests-sanitize.txt",
+      "sha256": "45ec3a5f50410b493ccc187c7dd29693de56f6ac441358e7b6ab6cd913d1e2a1"
+    }
+  ],
+  "platform_entries": [
+    ".github/SECURITY.md"
+  ]
+}
