@@ -23,5 +23,5 @@ Use a disposable database copy when reproducing an issue.
 Configured command oracles and trace commands execute external programs with the
 caller's privileges; they are not a sandbox. Finite examples and bounded emulation
 are not a proof of equivalence for every input. Incorrect rewrites are still worth
-reporting within these limits. See [configuration](../docs/CONFIG.md) and the
-[IDA guide](../integrations/ida/README.md).
+reporting within these limits. See [configuration](../%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/docs/CONFIG.md) and the
+[IDA guide](../%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/integrations/ida/README.md).
