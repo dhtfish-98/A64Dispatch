@@ -4,7 +4,10 @@
 
 A C++20 library and CLI for AArch64 dispatch analysis, control-flow reports and
 same-size branch rewriting gated by known-vector and coverage checks.
-Version 1.0.0 is validated on macOS arm64.
+Version 1.0.1 is the current macOS arm64 source release. It includes later
+fixes and the Build/项目文档 layout; the 1.0.0 delivery records below are historical.
+Build, tests and installation for this release are checked by the exact-commit
+GitHub macOS workflow. No prebuilt binary is distributed with this release.
 The [validation summary](<validation/README.md>) records the local acceptance
 scope and explains availability of the detailed evidence.
 

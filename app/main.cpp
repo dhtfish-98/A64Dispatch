@@ -118,7 +118,7 @@ int run(int argc, char **argv) {
     return argc == 1 ? 2 : 0;
   }
   if (std::string(argv[1]) == "--version" && argc == 2) {
-    std::cout << "A64Dispatch 1.0.0\n";
+    std::cout << "A64Dispatch 1.0.1\n";
     return 0;
   }
   const std::string command = argv[1];

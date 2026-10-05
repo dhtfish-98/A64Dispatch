@@ -13,7 +13,7 @@
     {
       "original": "README.md",
       "stored": "项目文档/README.md",
-      "sha256": "139a786a5fc7fff9f635796d8a0646c7cb6eaeb9b9552735b7e2a92f1e88635b"
+      "sha256": "59bc7b5907c2274ab28fefcc0b60d848df1f692b504e4d78cae7884d17d4a1da"
     },
     {
       "original": "THIRD_PARTY_NOTICES.md",
@@ -53,7 +53,7 @@
     {
       "original": "licenses/deflat64-MIT.txt",
       "stored": "项目文档/licenses/deflat64-MIT.txt",
-      "sha256": "6bf5681d0ef16251e7d95000265bfd2bf070b22d954825bccb12dc14d2152e71"
+      "sha256": "a99855ca42c0c2c98e3769ca7b42a7f7dc96f3000d3ee64450421a28a9061f58"
     },
     {
       "original": "licenses/libgcrypt-COPYING.LIB.txt",
